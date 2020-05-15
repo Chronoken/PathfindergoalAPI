@@ -48,6 +48,8 @@ interface Insentient {
 
     fun addTargetPathfinderGoal(priority: Int, pathfinderGoal: PathfinderGoal)
 
+    fun addTargetPathfinderGoal(priority: Int, pathfinderGoal: PathfinderGoal, entityType: String)
+
     fun removeTargetPathfinderGoal(pathfinderGoal: PathfinderGoal)
 
     fun hasTargetPathfinderGoal(pathfinderGoal: PathfinderGoal): Boolean
