@@ -39,6 +39,8 @@ interface Insentient {
 
 
     fun addPathfinderGoal(priority: Int, pathfinderGoal: PathfinderGoal)
+    
+    fun addPathfinderGoal(priority: Int, goalType: String)
 
     fun removePathfinderGoal(pathfinderGoal: PathfinderGoal)
 
