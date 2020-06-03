@@ -37,6 +37,8 @@ interface Insentient {
      */
     fun getBukkitEntity(): Entity
 
+    fun setInvisible(invisible: Boolean)
+
 
     fun addPathfinderGoal(priority: Int, pathfinderGoal: PathfinderGoal)
 
